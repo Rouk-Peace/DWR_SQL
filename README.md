@@ -1,7 +1,7 @@
 # DWR_SQL
-─────────────────────────────  
+  
 🎉 WELCOME – Bienvenue dans l’Univers de votre Datawarehouse ☀️  
-─────────────────────────────
+
 
 Bonjour et bienvenue dans ce projet passionnant de Datawarehouse dédié à l’intégration de vos données CRM et ERP ! 🚀
 
@@ -21,16 +21,17 @@ Prête à plonger dans le monde fascinant de la Data ?  C'est parti !  ➡️
 
 ─────────────────────────────  
 📖 TABLE DES MATIERES
-─────────────────────────────
+
 
 1. Introduction
 2. Architecture Médaillon (Bronze, Silver, Gold)
 3. Conventions de Nommage (Snake_Case)
-4. Outils et Technologies
-5. Démarrage du Projet (Étape par Étape)
-6. Bonnes Pratiques et Conseils
-7. Ressources Complémentaires
-8. Contact et Support
+4. BI
+5. Outils et Technologies
+6. Démarrage du Projet (Étape par Étape)
+7. Bonnes Pratiques et Conseils
+8. Ressources Complémentaires
+9. Contact et Support
 
 
 ─────────────────────────────  
@@ -54,10 +55,39 @@ Ce Datawarehouse centralisera les données de vos systèmes CRM et ERP pour faci
 
 Toutes les tables et colonnes utiliseront le format snake_case (minuscules et underscores). Ex: `nom_client`, `date_commande`, `bronze_produits`.
 
+─────────────────────────────   
+
+4️⃣ 📊 BI & Analytics Reporting
+
+Ce Datawarehouse permettra de générer des rapports et des analyses dans les domaines suivants :
+
+### 1. Comportement Client
+
+* **Analyse de la segmentation client :**  Identifiez les différents segments de clientèle en fonction de leurs caractéristiques démographiques, de leur comportement d'achat et de leur engagement.
+* **Analyse du cycle de vie client :**  Comprenez les différentes étapes du cycle de vie de vos clients, de l'acquisition à la fidélisation, pour optimiser vos stratégies marketing et commerciales.
+* **Analyse du taux de churn :**  Identifiez les facteurs contribuant au churn (attrition client) et mettez en place des actions pour le réduire.
+* **Analyse de la satisfaction client :**  Mesurez la satisfaction de vos clients et identifiez les axes d'amélioration.
+  *(Exemples de rapports :  Clients par segment,  Evolution du chiffre d'affaires par client,  Taux de churn mensuel)*
+
+### 2. Performance Produit
+
+* **Analyse des ventes par produit :**  Suivez les performances de vos produits en termes de ventes, de chiffre d'affaires et de marge.
+* **Analyse de la rentabilité par produit :**  Identifiez les produits les plus rentables et ceux qui nécessitent une optimisation.
+* **Analyse des stocks :**  Optimisez la gestion de vos stocks en fonction des ventes et des prévisions.
+* **Analyse des retours produits :**  Identifiez les causes des retours produits et mettez en place des actions correctives.
+  *(Exemples de rapports :  Top 10 des produits les plus vendus,  Rentabilité par produit,  Niveau de stock par produit)*
+
+### 3. Tendances de Vente
+
+* **Analyse des ventes par période :**  Suivez l'évolution de vos ventes sur différentes périodes (jour, semaine, mois, année).
+* **Analyse des ventes par région :**  Identifiez les régions les plus performantes et celles qui nécessitent un soutien particulier.
+* **Analyse des ventes par canal de distribution :**  Comparez les performances de vos différents canaux de distribution (en ligne, hors ligne).
+* **Prévisions des ventes :**  Anticipez les tendances futures des ventes pour optimiser vos stratégies commerciales.
+  *(Exemples de rapports :  Evolution du chiffre d'affaires mensuel,  Ventes par région,  Prévisions de ventes pour le prochain trimestre)*
 
 ─────────────────────────────  
-4️⃣ OUTILS ET TECHNOLOGIES
-─────────────────────────────
+5️⃣  OUTILS ET TECHNOLOGIES
+
 
 * MySQL: Base de données.
 * Notion: Gestion de projet.
@@ -65,7 +95,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 
 ─────────────────────────────  
-5️⃣ DÉMARRAGE DU PROJET (ÉTAPE PAR ÉTAPE)
+6️⃣ DÉMARRAGE DU PROJET (ÉTAPE PAR ÉTAPE)
 
 
 1. Installer et configurer MySQL.
@@ -76,7 +106,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 
 ─────────────────────────────  
-6️⃣ BONNES PRATIQUES ET CONSEILS
+7️⃣ BONNES PRATIQUES ET CONSEILS
 
 
 * Documentez votre code SQL.
@@ -85,7 +115,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 
 ─────────────────────────────  
-7️⃣ RESSOURCES COMPLÉMENTAIRES
+8️⃣ RESSOURCES COMPLÉMENTAIRES
 
 
 * [Liens vers tutoriels MySQL]
@@ -93,7 +123,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 
 ─────────────────────────────  
-8️⃣ CONTACT ET SUPPORT
+9 CONTACT ET SUPPORT
 
 
 
