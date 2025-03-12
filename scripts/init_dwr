@@ -1,0 +1,16 @@
+
+# But du script: créer un database nommé "datawerhouse" puis créer trois schémas (bronze, silver, gold) dans la database.
+# NB: verifier l'existance ou non de database "datawerhouse" avant de créer la database.
+
+ 
+-- Create database 'datawarehouse'
+
+CREATE DATABASE datawerhouse;
+
+-- Se connecter à la base de données datawerhouse (si ce n'est déjà fait)
+ \c datawerhouse
+
+-- Créer les schémas
+CREATE SCHEMA bronze;
+CREATE SCHEMA silver;
+CREATE SCHEMA gold;
