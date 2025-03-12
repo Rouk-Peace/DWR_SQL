@@ -35,14 +35,13 @@ Prête à plonger dans le monde fascinant de la Data ?  C'est parti !  ➡️
 
 ─────────────────────────────  
 1️⃣ INTRODUCTION
-─────────────────────────────
 
 Ce Datawarehouse centralisera les données de vos systèmes CRM et ERP pour faciliter l'analyse et le reporting. L'architecture médaillon assure un flux de données clair et contrôlé, de l'ingestion brute à la création de rapports.  Ce README est votre guide principal, n'hésitez pas à le consulter régulièrement.
 
 
 ─────────────────────────────  
 2️⃣ ARCHITECTURE MÉDAILLON (BRONZE, SILVER, GOLD)
-─────────────────────────────
+
 
 * **Bronze:** Données brutes, sans transformation.  Nom des tables : `bronze_[nom_table]`. Ex: `bronze_clients`, `bronze_commandes`.
 * **Silver:** Données nettoyées et transformées. Nom des tables : `silver_[nom_table]`. Ex: `silver_clients_nettoyes`, `silver_commandes_valides`.
@@ -51,7 +50,7 @@ Ce Datawarehouse centralisera les données de vos systèmes CRM et ERP pour faci
 
 ─────────────────────────────  
 3️⃣ CONVENTIONS DE NOMMAGE (SNAKE_CASE)
-─────────────────────────────
+
 
 Toutes les tables et colonnes utiliseront le format snake_case (minuscules et underscores). Ex: `nom_client`, `date_commande`, `bronze_produits`.
 
@@ -67,7 +66,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 ─────────────────────────────  
 5️⃣ DÉMARRAGE DU PROJET (ÉTAPE PAR ÉTAPE)
-─────────────────────────────
+
 
 1. Installer et configurer MySQL.
 2. Accéder à la page Notion et aux diagrammes Draw.io.
@@ -78,7 +77,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 ─────────────────────────────  
 6️⃣ BONNES PRATIQUES ET CONSEILS
-─────────────────────────────
+
 
 * Documentez votre code SQL.
 * Testez vos transformations sur un petit échantillon de données.
@@ -87,7 +86,7 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 ─────────────────────────────  
 7️⃣ RESSOURCES COMPLÉMENTAIRES
-─────────────────────────────
+
 
 * [Liens vers tutoriels MySQL]
 * [Liens vers documentation sur l'architecture médaillon]
@@ -95,9 +94,9 @@ Toutes les tables et colonnes utiliseront le format snake_case (minuscules et un
 
 ─────────────────────────────  
 8️⃣ CONTACT ET SUPPORT
-─────────────────────────────
 
-[Votre nom/email]
+
+
 
 
 ─────────────────────────────  
